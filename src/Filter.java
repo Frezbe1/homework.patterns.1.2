@@ -12,8 +12,8 @@ public class Filter {
         Logger logger = Logger.getInstance();
         List<Integer> result = new ArrayList<>();
         int x = 0;
-        for(int i : list){
-            if(i >= treshold){
+        for (int i : list) {
+            if (i >= treshold) {
                 logger.log("Элемент " + i + " подходит");
                 result.add(i);
                 x++;
